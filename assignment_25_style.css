@@ -1,0 +1,48 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #ce4343;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+.m-heading {
+    font-family: "Roboto Slab", serif;
+}
+
+.text-white {
+    color: white;
+}
+
+mark {
+    background-color: white;
+    color: red;
+}
+
+.main-container {
+    height: 50vh;
+    width: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url("indonesian_food_bg.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.main-row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-row h1 {
+    font-size: 5rem;
+}
+
+.main-row img {
+    width: auto;
+    height: 100vh;
+}
